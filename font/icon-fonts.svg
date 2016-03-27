@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icon-fonts" horiz-adv-x="1000" >
+<font-face font-family="icon-fonts" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="exchange" unicode="&#xe800;" d="M1000 189v-107q0-7-5-12t-13-6h-768v-107q0-7-5-12t-13-6q-6 0-13 6l-178 178q-5 5-5 13 0 8 5 13l179 178q5 5 12 5 8 0 13-5t5-13v-107h768q7 0 13-5t5-13z m0 304q0-8-5-13l-179-179q-5-5-12-5-8 0-13 6t-5 12v107h-768q-7 0-13 6t-5 12v107q0 8 5 13t13 5h768v107q0 8 5 13t13 5q6 0 13-5l178-178q5-5 5-13z" horiz-adv-x="1000" />
+
+<glyph glyph-name="link" unicode="&#xe801;" d="M812 171q0 23-15 38l-116 116q-16 16-38 16-24 0-40-18 1-1 10-10t12-12 9-11 7-14 2-15q0-23-16-38t-38-16q-8 0-15 2t-14 7-11 9-12 12-10 10q-19-17-19-40 0-23 16-38l115-116q15-15 38-15 22 0 38 15l82 81q15 16 15 37z m-392 394q0 22-15 38l-115 115q-16 16-38 16-22 0-38-15l-82-82q-16-15-16-37 0-22 16-38l116-116q15-15 38-15 23 0 40 17-2 2-11 11t-12 12-8 10-7 14-2 16q0 22 15 38t38 15q9 0 16-2t14-7 10-8 12-12 11-11q18 17 18 41z m500-394q0-67-48-113l-82-81q-46-47-113-47-68 0-114 48l-115 115q-46 47-46 114 0 68 49 116l-49 49q-48-49-116-49-67 0-114 47l-116 116q-47 47-47 114t47 113l82 82q47 46 114 46 67 0 114-47l114-116q47-46 47-113 0-69-49-117l49-49q48 49 116 49 67 0 114-47l116-116q47-47 47-114z" horiz-adv-x="928.6" />
+</font>
+</defs>
+</svg>
