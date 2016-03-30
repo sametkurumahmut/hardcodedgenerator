@@ -1837,7 +1837,7 @@ type="text/css">
                 <ul class="nav nav-stacked">
                     <li>
                         <b class="pull-right" title="Switch"><span class="sr-only">Switch</span><i class="linkColor icon-exchange"></i></b>
-                        <a href="#HardCodeds">HardCodeds</a>
+                        <a href="#hardCodeds">HardCodeds</a>
                         <ul class="nav nav-stacked">
                             <li>
                                 <a href="#hardCodeds-animations">Animations</a>
@@ -1878,10 +1878,26 @@ type="text/css">
                         </ul>
                     </li>
                 </ul>
+                <ul class="nav nav-stacked">
+                    <li>
+                        <a href="#hardCodedGenerator-menuItems">Hard-Coded Generator MenuItems</a>
+                        <ul class="nav nav-stacked">
+                            <li>
+                                <a href="#hardCodedGenerator-menuItems-path">Path</a>
+                            </li>
+                            <li>
+                                <a href="#hardCodedGenerator-menuItems-priority">Priority</a>
+                            </li>
+                            <li>
+                                <a href="#hardCodedGenerator-menuItems-generateAssemblyHotkey">Generate Assembly Hotkey</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9 main">
-            <section id="HardCodeds">
+            <section id="hardCodeds">
                 <section id="hardCodeds-animations" class="content content-shadow">
                     <div class="row">
     <div class="col-xs-12">
@@ -4037,6 +4053,39 @@ type="text/css">
     </div>
 </div>
                 </section>
+            </section>
+            <section id="hardCodedGenerator-menuItems" class="content content-shadow">
+                <div class="row">
+    <div class="col-xs-12">
+        <br>
+        <h3 class="anchor-link"><a class="anchor linkColor" href="#hardCodedGenerator-menuItems" title="Permalink" style=""><span class="sr-only">Permalink</span><i class="icon-link"></i></a><b>Hard-Coded Generator MenuItems</b></h3>
+        <br>
+        <p class="text-indent">
+            <em>Hard-Coded Generator</em> menu items allows you to customize dynamically <em>Hard-Coded Generator</em> main menus. <em>Hard-Coded Generator</em> main menu logic stored in dynamically generated <em><span class="emphasisColor">HardCodedGenerator.MenuItems<strong>.dll</strong></span></em> assembly. See <a class="link-slide-in-slide-off" href="http://docs.unity3d.com/ScriptReference/MenuItem.html" target="_blank">more</a> about the menu items.</p>
+        <a href="/hardcodedgenerator/img/hardCodedGenerator/menuItems/menuItems-all_in_one.png" target="_blank"><img class="img-responsive center-block" src="/hardcodedgenerator/img/hardCodedGenerator/menuItems/menuItems-all_in_one.png"></a>
+    </div>
+</div>
+<section id="hardCodedGenerator-menuItems-path" class="content">
+    <h4 class="anchor-link"><a class="anchor linkColor" href="#hardCodedGenerator-menuItems-path" title="Permalink" style=""><span class="sr-only">Permalink</span><i class="icon-link"></i></a><b>Path</b></h4>
+<p class="text-indent">Set <em>Hard-Coded Generator</em> main menu path. Default value is <span class="emphasisColor"><strong><em>"Window/Hard-Coded Generator/"</em></strong></span>.
+    </p>
+</section>
+<section id="hardCodedGenerator-menuItems-priority" class="content">
+    <h4 class="anchor-link"><a class="anchor linkColor" href="#hardCodedGenerator-menuItems-priority" title="Permalink" style=""><span class="sr-only">Permalink</span><i class="icon-link"></i></a><b>Priority</b></h4>
+<p class="text-indent">Set <em>Hard-Coded Generator</em> main menu priority. Default value is <b><em>0</em></b>.</p>
+</section>
+<section id="hardCodedGenerator-menuItems-generateAssemblyHotkey" class="content">
+    <h4 class="anchor-link"><a class="anchor linkColor" href="#hardCodedGenerator-menuItems-generateAssemblyHotkey" title="Permalink" style=""><span class="sr-only">Permalink</span><i class="icon-link"></i></a><b>Generate Assembly Hotkey</b>
+    </h4>
+    <p class="text-indent">
+        Set <em>Generate Assembly</em> main menu hot-key. This hot-key forces <em>HardCodeds</em> assembly <em>(re)</em>generation. Default value is <span class="emphasisColor"><strong><em>"Ctrl + Shift + Alt + H"</em></strong></span> hot-key on Windows <b>/</b> <span class="emphasisColor"><strong><em>"Cmd + Shift + Option + H"</em></strong></span> hot-key on OS X.
+    </p>
+</section>
+<br>
+<p class="text-indent">
+    Change menu item settings under <em>Hard-Coded Generator MenuItems</em> section through <em>configuration asset</em>.
+</p>
+<a href="/hardcodedgenerator/img/hardCodedGenerator/menuItems/menuItems-sample.gif" target="_blank"><img class="img-responsive center-block" src="/hardcodedgenerator/img/hardCodedGenerator/menuItems/menuItems-sample.gif"></a>
             </section>
         </div>
     </div>

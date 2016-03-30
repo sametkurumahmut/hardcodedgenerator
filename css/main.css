@@ -686,7 +686,7 @@ a.availableOnAssetStore .tooltip {
     margin-top: 20px;
 }
 #intro-header {
-    background: #0078d7 url("/hardcodedgenerator/img/demo/hardCodedGenerator-demo.gif") no-repeat center center;
+    background: #0078d7 url("/hardcodedgenerator/img/hardCodedGenerator/demo/hardCodedGenerator-demo.gif") no-repeat center center;
     background-position: center top;
     background-size: cover;
     height : 100vh;
