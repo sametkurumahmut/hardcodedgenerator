@@ -706,6 +706,9 @@ a.availableOnAssetStore .tooltip {
     background-size: cover;
     width: 100%;
 }
+.carousel-inner > .item {
+    background-color: #0078d7;
+}
 .carousel-inner > .item > img {
     height:100%;
 }
