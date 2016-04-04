@@ -667,11 +667,18 @@ a.availableOnAssetStore .tooltip {
     background: #2C7BC0;
 }
 
-.assemblyIcon {
-    background: no-repeat center center;
-    background-size: contain;
-    height: 20px;
-    width: 20px;
+.carousel-item-img-1 {
+    background-image: url('/hardcodedgenerator/img/hardCodedGenerator/demo/hardCodedGenerator-demo.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.carousel-item-img-1 h1 {
+    font-size: 3.6em;
+}
+.carousel-item-img-1 .mainColor, .carousel-item-img-1 h1 {
+    font-weight: 700;
 }
 .extras [class*='col-'] {
     margin-bottom: 20px;
@@ -688,40 +695,30 @@ a.availableOnAssetStore .tooltip {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-#intro-header {
-    background: #0078d7 url("/hardcodedgenerator/img/hardCodedGenerator/demo/hardCodedGenerator-demo.gif") no-repeat center center;
-    background-position: center top;
-    background-size: cover;
+
+.item {
     height : 100vh;
     margin-top: -50px;
+    padding-top: 50px;
+    overflow: hidden;
 }
-#intro-header .mainColor,
-#intro-header h1 {
-    font-weight: 700;
+.carousel-inner img {
+    background-size: cover;
+    width: 100%;
 }
-#intro-header h1 {
-    font-size: 3.6em;
-}
-.intro-message {
-    font-weight: 700;
-    height: 100%;
-    padding-top: 20%;
-    text-align: center;
-}
-.unitypackageIcon {
-    background: no-repeat center center;
-    background-size: contain;
-    height: 20px;
-    width: 20px;
+.carousel-inner > .item > img {
+    height:100%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    #intro-header {
+    .item {
         margin-top: -80px;
+        padding-top: 80px;
     }
 }
-@media (min-width: 992px){
-    #intro-header {
+@media (min-width: 992px) {
+    .item {
         margin-top: -94px;
+        padding-top: 94px;
     }
 }
 
