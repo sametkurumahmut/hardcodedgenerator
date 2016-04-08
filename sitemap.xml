@@ -43,8 +43,6 @@
 
 
     
-        
-    
     
     
     
@@ -53,6 +51,8 @@
     
     
 
+    
+        
 
     
         
@@ -63,6 +63,14 @@
             
                 
             
+                
+                    
+                    
+                    <xhtml:link 
+                                rel="alternate"
+                                hreflang="en"
+                                href="https://sametkurumahmut.github.io/hardcodedgenerator/details/"
+                                />
                 
             
                 
@@ -81,7 +89,7 @@
         
         <xhtml:link 
                     rel="alternate"
-                    hreflang="en"
+                    hreflang="tr"
                     href="https://sametkurumahmut.github.io/hardcodedgenerator/tr/details/"
                     />
     
@@ -149,7 +157,7 @@
                     
                     <xhtml:link 
                                 rel="alternate"
-                                hreflang="en"
+                                hreflang="tr"
                                 href="https://sametkurumahmut.github.io/hardcodedgenerator/tr/details/"
                                 />
                 
